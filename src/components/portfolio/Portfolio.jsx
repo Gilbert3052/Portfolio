@@ -2,6 +2,7 @@ import React from 'react'
 import "./portfolio.css"
 import portfolio1 from "../../assets/portfolio1.png"
 import portfolio2 from "../../assets/portfolio2.png"
+import portfolio3 from "../../assets/portfolio3.png"
 
 // import { Pagination } from 'swiper';
 // import { Swiper, SwiperSlide } from 'swiper/react';
@@ -14,14 +15,21 @@ const Portfolio = () => {
     {
       id: 1,
       image: portfolio1,
+      title: "Pokedex",
+      github: "https://github.com/Gilbert3052/Pokedex",
+      demo: "https://pokedex-3052.netlify.app"
+    },
+    {
+      id: 2,
+      image: portfolio2,
       title: "Rick & Morty",
       github: "https://github.com/Gilbert3052/Rick-Morty-React",
       demo: "https://rick-morty-3052.netlify.app"
     },
     {
       id: 2,
-      image: portfolio2,
-      title: "CRUD",
+      image: portfolio3,
+      title: "Weather App",
       github: "https://github.com/Gilbert3052/first-crud",
       demo: "https://crud-3052.netlify.app"
     },

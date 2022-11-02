@@ -4,7 +4,7 @@ import {BsLinkedin, BsGithub} from "react-icons/bs"
 
 const Footer = () => {
   return (
-    <footer>
+    <footer id="footer">
       <a href="#" className='footer__logo'>Gilbert</a>
 
       <ul className='permalinks'>
@@ -16,7 +16,7 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="www.linkedin.com/in/gilbert-angulo-79a0191a4" target="_blank"><BsLinkedin /></a>
+        <a href="https://www.linkedin.com/in/gilbert-angulo-79a0191a4/" target="_blank"><BsLinkedin /></a>
         <a href="https://github.com/Gilbert3052" target="_blank"><BsGithub /></a>
       </div>
 

@@ -36,6 +36,12 @@ const Experience = () => {
                 <h4>React</h4>
               </div>
             </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className="experience__details-icon"/>
+              <div>
+                <h4>Redux</h4>
+              </div>
+            </article>
           </div>
         </div>
         {/* ================ END FRONTEND ============= */}
