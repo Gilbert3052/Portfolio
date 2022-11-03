@@ -29,7 +29,7 @@ const About = () => {
             </article>
           </div> */}
 
-          <p>I´m a Student of Full-Stack Web Development at Academlo, with knowledge on HTML, CSS, Javascript and React. Constantly learning about the new technologies</p>
+          <p>I´m a Front-Stack Web Development at Academlo, with knowledge on HTML, CSS, Javascript, React and Redux. Constantly learning about the new technologies</p>
 
           {/* <a href="#contact" className='btn btn-primary'>Let´s Talk</a> */}
         </div>
