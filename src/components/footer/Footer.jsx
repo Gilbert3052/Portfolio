@@ -15,10 +15,17 @@ const Footer = () => {
         <li><a href="#contact">Contact</a></li>
       </ul>
 
+      <div className="phone">
+        <p>WhatsApp</p>
+        <span>+58 412 9855944</span>
+      </div>
+
       <div className="footer__socials">
         <a href="https://www.linkedin.com/in/gilbert-angulo-79a0191a4/" target="_blank"><BsLinkedin /></a>
         <a href="https://github.com/Gilbert3052" target="_blank"><BsGithub /></a>
       </div>
+
+      
 
       <div className="footer__copyright">
         <small>&copy; Gilbert. All rights reserved</small>

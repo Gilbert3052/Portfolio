@@ -3,11 +3,8 @@ import "./portfolio.css"
 import portfolio1 from "../../assets/portfolio1.png"
 import portfolio2 from "../../assets/portfolio2.png"
 import portfolio3 from "../../assets/portfolio3.png"
-
-// import { Pagination } from 'swiper';
-// import { Swiper, SwiperSlide } from 'swiper/react';
-// import 'swiper/css';
-// import 'swiper/css/pagination';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 const Portfolio = () => {
 
@@ -27,7 +24,7 @@ const Portfolio = () => {
       demo: "https://rick-morty-3052.netlify.app"
     },
     {
-      id: 2,
+      id: 3,
       image: portfolio3,
       title: "Weather App",
       github: "https://github.com/Gilbert3052/first-crud",
@@ -59,8 +56,7 @@ const Portfolio = () => {
             
             )
           })
-        }
-        
+        }     
       </div>
     </section>
   )

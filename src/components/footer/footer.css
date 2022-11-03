@@ -25,6 +25,17 @@ footer a {
     margin: 0 auto 3rem;
 }
 
+.phone {
+    padding-bottom: 1.5rem;
+    color: var(--color-bg-variant);
+}
+
+.phone > p {
+    color: var(--color-bg);
+    font-weight: bold;
+    font-size: 16px;
+}
+
 .footer__socials {
     display: flex;
     justify-content: center;
