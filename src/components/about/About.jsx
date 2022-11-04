@@ -31,7 +31,7 @@ const About = () => {
 
           <p>I´m a Front-Stack Web Development at Academlo, with knowledge on HTML, CSS, Javascript, React and Redux. Constantly learning about the new technologies</p>
 
-          {/* <a href="#contact" className='btn btn-primary'>Let´s Talk</a> */}
+          <a href="#contact" className='btn btn-primary'>Let´s Talk</a>
         </div>
       </div>
     </section>

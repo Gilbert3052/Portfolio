@@ -14,21 +14,24 @@ const Portfolio = () => {
       image: portfolio1,
       title: "Pokedex",
       github: "https://github.com/Gilbert3052/Pokedex",
-      demo: "https://pokedex-3052.netlify.app"
+      demo: "https://pokedex-3052.netlify.app",
+      description: "Single Page Application where you can find your favorite Pokemon!"
     },
     {
       id: 2,
       image: portfolio2,
       title: "Rick & Morty",
       github: "https://github.com/Gilbert3052/Rick-Morty-React",
-      demo: "https://rick-morty-3052.netlify.app"
+      demo: "https://rick-morty-3052.netlify.app",
+      description: "Application where you can see Rick And Morty´s characters in their different Universes"
     },
     {
       id: 3,
       image: portfolio3,
       title: "Weather App",
-      github: "https://github.com/Gilbert3052/first-crud",
-      demo: "https://crud-3052.netlify.app"
+      github: "https://github.com/Gilbert3052/weather-app",
+      demo: "https://weather-app-3052.netlify.app",
+      description: "Here you can see the weather at your ubication"
     },
   ]
  
@@ -40,20 +43,23 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
         {
-          data.map(({id, image, title, github, demo}) => {
+          data.map(({id, image, title, github, demo, description}) => {
             return(
-            
-            <article key={id} className="portfolio__item">
-              <div className="portfolio__item-image">
-                <img src={image} alt={title} />
-              </div>
-              <h3>{title}</h3>
-              <div className="portfolio__item-cta">
-                <a href={github} className='btn'>Github</a>
-                <a href={demo} className='btn btn-primary' target="_blank">Live Demo</a>
-              </div>
-            </article>
-            
+              <article key={id} className="portfolio__item">
+                <div className="portfolio__item-image">
+                  <div className="text__img">
+                    <p>{description}</p>
+                  </div>
+                  <a href={demo} target="_blank"><img className='img__item' src={image} alt={title} /></a>
+                </div>
+                <div className="title__item">
+                  <a href={demo} target="_blank"><h3>{title}</h3></a>
+                </div>
+                <div className="portfolio__item-cta">
+                  <a href={github} className='btn' target="_blank">Github</a>
+                  <a href={demo} className='btn btn-primary' target="_blank">Live Demo</a>
+                </div>
+              </article>
             )
           })
         }     

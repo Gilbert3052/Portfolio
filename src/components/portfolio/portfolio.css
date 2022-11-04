@@ -25,11 +25,41 @@
 .portfolio__item-image {
     border-radius: 1rem;
     overflow:hidden;
+    position: relative;
 }
 
-.portfolio__item h3 {
+.text__img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 20px;
+    z-index: -1;
+    margin: 0;
+}
+
+.img__item:hover {
+    opacity: 0.3;
+}
+
+/* .portfolio__item h3 {
     text-align: center;
     margin: 1.2rem 0 2rem;
+} */
+
+.title__item {
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 1.2rem 0 2rem;
+}
+
+.title__item > a{
+    color: white;
+    width: max-content;
+    display: inline-block;
+    text-align: center;
 }
 
 .portfolio__item-cta {
