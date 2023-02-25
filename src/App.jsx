@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import Header from "./components/header/Header"
 import About from "./components/about/About"
@@ -9,7 +8,6 @@ import Nav from "./components/nav/Nav"
 import Portfolio from './components/portfolio/Portfolio'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
@@ -18,7 +16,7 @@ function App() {
       <About />
       <Experience />
       <Portfolio />
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </div>
   )

@@ -10,7 +10,7 @@ const Experience = () => {
 
       <div className="container experience__container">
         <div className="experience__frontend">
-          <h3>Frontend Skills</h3>
+          <h3>Skills</h3>
           <div className="experience__content">
             <article className='experience__details'>
               <BsPatchCheckFill className="experience__details-icon"/>
@@ -45,12 +45,12 @@ const Experience = () => {
           </div>
         </div>
         {/* ================ END FRONTEND ============= */}
-        <div className="experiences__backend">
-        <h3>Backend Skills</h3>
+        {/* <div className="experiences__backend">
+          <h3>Backend Skills</h3>
           <article className='experience__details-backend'>
             Soon...
           </article>
-        </div>  
+        </div>   */}
       </div>
     </section>
   )
